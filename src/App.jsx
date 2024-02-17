@@ -26,24 +26,24 @@ function App() {
 
   return (
     <>
-      <div className="bg-slate-800 relative">
-        <div id="landing">
+      <div className="bg-slate-800 relative min-h-screen">
+        <div id="landing" className="min-h-screen">
           <Landing />
         </div>
-        <div id="about" className="h-screen">
+        <div id="about" className="min-h-screen">
           <About />
         </div>
-        <div id="portfolio" className="h-screen">
+        <div id="portfolio" className="min-h-screen">
           <Portfolio />
         </div>
-        <div id="contact" className="h-screen">
+        <div id="contact" className="min-h-screen">
           <Contact />
         </div>
 
         <div className="fixed right-0 top-0 z-50 h-full">
           <div
             style={{ height: `${scrollProgress}%` }}
-            className="bg-slate-200 w-3"
+            className="bg-slate-200 w-2"
           ></div>
         </div>
       </div>

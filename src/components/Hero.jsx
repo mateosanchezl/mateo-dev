@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <>
-      <div id="hero" className="flex justify-start items-center h-screen">
+      <div id="hero" className="flex justify-start items-center h-screen pt-24">
         <div className="mx-auto w-2/3">
           <p className="text-center lg:text-left text-4xl text-white">
             Mateo Sanchez Lopez

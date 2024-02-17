@@ -6,12 +6,9 @@ import Highlighted from "../components/Highlighted";
 function About() {
   return (
     <>
-      <div
-        id="about"
-        className="flex flex-col justify-center items-center h-screen"
-      >
-        <div className=" max-w-3xl order-2 mx-auto">
-          <p className="text-center text-4xl text-white">About Me</p>
+      <div className="flex flex-col justify-center items-center h-screen mt-44 pt-36">
+        <div className=" max-w-2xl order-2 mx-auto">
+          <p className="text-center text-4xl text-white -mt-36">About Me</p>
           <p className="pt-10 text-center text-lwhitespace-normal text-slate-400">
             I’m currently working towards a{" "}
             <Highlighted>
@@ -25,10 +22,10 @@ function About() {
             departments at <Highlighted>BancoSol</Highlighted> - the world’s
             first microfinance dedicated bank based in Bolivia.
           </p>
-          <p className="pt-5 text-center text-lwhitespace-normal text-slate-400">
-            My main areas of interest are ...
-          </p>
         </div>
+      </div>
+      <div className="flex items-center justify-center -mt-40">
+        <Arrow direction={"down"} to={"portfolio"} />
       </div>
     </>
   );

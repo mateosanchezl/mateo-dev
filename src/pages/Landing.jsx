@@ -8,7 +8,7 @@ function Landing() {
     <>
       <Navbar />
       <Hero />
-      <div className="flex items-center justify-center -mt-40">
+      <div className="flex items-center justify-center -mt-20">
         <Arrow direction={"down"} to={"about"} />
       </div>
     </>
