@@ -22,10 +22,10 @@ function Portfolio() {
   return (
     <>
       <div id="portfolio" className="flex justify-center items-center h-screen">
-        <div className="flex justify-between items-center w-full max-w-4xl px-4">
+        <div className="flex flex-wrap justify-between items-center w-full max-w-2xl px-4">
           {content.map((item) => {
             return (
-              <div className="text-center p-4">
+              <div className="text-center p-10 w-full sm:w-1/2 md:w-1/3">
                 <p className="text-center text-4xl text-white">{item.title}</p>
                 <p className="pt-4">{item.description}</p>
               </div>
