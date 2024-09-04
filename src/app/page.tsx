@@ -1,12 +1,14 @@
 import Image from "next/image";
+import { ModeToggle } from "@/components/theme-toggle";
 
 export default function Home() {
   return (
     <div className="h-screen bg-primary flex justify-center items-center text-muted-foreground ">
+      <div className="absolute right-10 top-10">
+        <ModeToggle />
+      </div>
       <div className="w-1/4 h-4/6">
-        <h1 className="text-2xl text-primary-foreground">
-          mateo sanchez lopez
-        </h1>
+        <h1 className="text-2xl text-primary-foreground">mateo sanchez</h1>
         <p className="pt-5 lg">
           bolivian software engineering student & <br />
           lab demonstrator at{" "}
