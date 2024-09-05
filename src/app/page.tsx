@@ -1,7 +1,14 @@
-import Image from "next/image";
-import { ModeToggle } from "@/components/theme-toggle";
+"use client";
+
+import ModeToggle from "@/components/theme-toggle";
+import SocialsToggle from "@/components/socials-toggle";
+import Link from "next/link";
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
+  const [isVisible, setIsVisible] = useState<boolean>(false);
+
   return (
     <div className="h-screen bg-primary flex justify-center items-center text-muted-foreground ">
       <div className="absolute right-10 top-10">
@@ -26,6 +33,33 @@ export default function Home() {
           in <span className="text-primary-foreground">dubai</span> and{" "}
           <span className="text-primary-foreground">london</span>.
         </p>
+        <p className="pt-4">
+          this website is a work in progress. in the meantime, you can learn
+          more{" "}
+          <Link className="text-primary-foreground underline" href={"/about"}>
+            about me
+          </Link>
+          .
+        </p>
+        <p className="pt-4">
+          check out the{" "}
+          <Link
+            href={"/projects"}
+            className="text-primary-foreground underline"
+          >
+            cool stuff i&apos;ve built
+          </Link>
+          , and feel free to{" "}
+          <button
+            className="text-primary-foreground underline"
+            onClick={() => {
+              setIsVisible(!isVisible);
+            }}
+          >
+            get in touch
+          </button>
+        </p>
+        <SocialsToggle isVisible={isVisible} />
       </div>
     </div>
   );
