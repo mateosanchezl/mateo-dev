@@ -15,7 +15,7 @@ function SocialsToggle({ isVisible }: SocialsToggleProps) {
         className={`flex transition-all duration-500 ease-in-out ${
           isVisible
             ? "opacity-100 translate-y-0"
-            : "opacity-0 -translate-y-full"
+            : "opacity-0 -translate-y-full h-0 w-0"
         }`}
       >
         <Link href="https://github.com/mateosanchezl" passHref={true}>
