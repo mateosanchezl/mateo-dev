@@ -40,8 +40,8 @@ export const projects: ProjectType[] = [
       "john horton conway's famous cellular automation game where cells can evolve following four simple rules.",
     technologies: ["python", "pygame", "numpy"],
     tags: ["game development"],
-    imageSource: "/conwaysgol1.png",
-    alt: "/project-images/conwaysgol-photo",
+    imageSource: "/project-images/conwaysgol1.png",
+    alt: "conwaysgol-photo",
     githubLink: "https://github.com/mateosanchezl/conways-game-of-life",
   },
   {
