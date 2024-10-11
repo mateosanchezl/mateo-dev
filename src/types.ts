@@ -5,5 +5,5 @@ export interface ProjectType {
   technologies: string[];
   tags: string[];
   description: string;
-  githubLink?: string;
+  githubLink: string;
 }
