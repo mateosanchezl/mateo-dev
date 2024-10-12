@@ -16,14 +16,14 @@ export default function Home() {
           bolivian <span className="text-primary ">software engineering </span>
           student & <br />
           <span className="text-primary ">lab demonstrator</span> at{" "}
-          <span className="text-primary ">manchester met</span>
+          <span className="text-primary ">manchester met</span>.
         </p>
         <p className="pt-4">
           learn more <PageLink href="/about">about me</PageLink> and my previous{" "}
           <PageLink href="/experience">experience</PageLink>.
         </p>
         <p className="pt-4">
-          also, check out the{" "}
+          this site is a work in progress. in the meantime, check out the{" "}
           <PageLink href="/projects">cool stuff i&apos;ve built</PageLink>!
         </p>
         <SocialsToggle isVisible={true} />

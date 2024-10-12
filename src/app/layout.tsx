@@ -7,8 +7,9 @@ import Header from "@/components/header";
 const afacad = Afacad({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "mateo",
-  description: "bolivian software engineering student and lab demonstrator",
+  title: "mateo sanchez",
+  description:
+    "bolivian software engineering student and lab demonstrator at manchester met.",
 };
 
 export default function RootLayout({
