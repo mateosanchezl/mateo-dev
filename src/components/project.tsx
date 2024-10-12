@@ -24,9 +24,9 @@ function Project({
           className="transition-transform duration-300"
         />
       </div>
-      <div className="w-full md:w-2/3 ml-2">
-        <div className="flex flex-row items-center">
-          <h2 className="text-2xl font-semibold text-primary mr-2">
+      <div className="w-full md:w-2/3 lg:ml-2">
+        <div className="flex flex-col lg:flex-row lg:items-center">
+          <h2 className="text-2xl font-semibold text-primary mr-2 mb-2 lg:mb-0">
             {projectName}
           </h2>
           <div className="flex flex-wrap gap-2 items-center">
