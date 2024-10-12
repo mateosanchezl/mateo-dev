@@ -29,7 +29,7 @@ export const projects: ProjectType[] = [
       "numpy",
       "flask",
     ],
-    tags: ["full-stack development", "data science", "machine learning"],
+    tags: ["full-stack development", "data science", "deep learning"],
     imageSource: "/project-images/efficientvis.png",
     alt: "efficientvis-photo",
     githubLink: "https://github.com/mateosanchezl/efficient-vis",
@@ -45,9 +45,9 @@ export const projects: ProjectType[] = [
     githubLink: "https://github.com/mateosanchezl/conways-game-of-life",
   },
   {
-    projectName: "mnist dataset classification",
+    projectName: "mnist classification",
     description:
-      "a simple pytorch model for the mnist classfication with tunable hyperparameters.",
+      "a simple pytorch computer vision model for the mnist classfication with tunable hyperparameters.",
     technologies: ["python", "pytorch", "numpy"],
     tags: ["data science", "deep learning", "machine learning"],
     imageSource: "/project-images/mnist.png",

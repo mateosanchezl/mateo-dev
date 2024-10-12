@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={afacad.className}>
         <ThemeProvider attribute="class" defaultTheme="system">
           <Header />
-          {children}
+          <main>{children}</main>
         </ThemeProvider>
       </body>
     </html>

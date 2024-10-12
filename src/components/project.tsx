@@ -14,7 +14,7 @@ function Project({
   githubLink,
 }: ProjectType) {
   return (
-    <div className="flex flex-col md:flex-row gap-4 items-center hover:bg-secondary/20 rounded-lg p-2 hover:cursor-pointer">
+    <div className="flex flex-col md:flex-row gap-4 items-center lg:hover:bg-secondary/20 rounded-lg p-2 lg:hover:cursor-pointer">
       <div className="w-full md:w-1/3 aspect-[4/3] relative rounded-lg overflow-hidden">
         <Image
           src={imageSource}
@@ -26,21 +26,21 @@ function Project({
       </div>
       <div className="w-full md:w-2/3 lg:ml-2">
         <div className="flex flex-col lg:flex-row lg:items-center">
-          <h2 className="text-2xl font-semibold text-primary mr-2 mb-2 lg:mb-0">
+          <h2 className="lg:text-3xl text-2xl font-semibold text-primary mr-2 mb-2 lg:mb-0">
             {projectName}
           </h2>
           <div className="flex flex-wrap gap-2 items-center">
             {tags.map((tag, index) => (
               <span
                 key={index}
-                className="px-2 py-1 bg-primary/10 text-primary rounded-full text-xs"
+                className="px-2 py-1 bg-primary/10 text-primary rounded-full lg:text-sm text-xs"
               >
                 {tag}
               </span>
             ))}
           </div>
         </div>
-        <p className="mt-2">{description}</p>
+        <p className="mt-2 lg:text-lg">{description}</p>
         <div className="mt-2 flex flex-wrap gap-2">
           {technologies.map((tech, index) => (
             <span

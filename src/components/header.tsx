@@ -4,6 +4,7 @@ import Image from "next/image";
 import { HomeIcon } from "@radix-ui/react-icons";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import PageLink from "./page-link";
 
 function Header() {
   return (
