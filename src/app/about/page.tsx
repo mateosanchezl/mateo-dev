@@ -75,7 +75,6 @@ function AboutPage() {
             <Image
               src={"/me.JPG"}
               alt="me"
-              layout="responsive"
               width={700}
               height={475}
               className="rounded-lg shadow-lg items-center justify-center mb-8 lg:mb-0"
