@@ -2,7 +2,6 @@
 
 import PageLink from "@/components/page-link";
 import SocialsToggle from "@/components/socials-toggle";
-import Link from "next/link";
 import { useState } from "react";
 
 export default function Home() {
