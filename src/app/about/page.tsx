@@ -73,7 +73,7 @@ function AboutPage() {
           </div>
           <div className="w-full max-w-64 md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
             <Image
-              src={"/me.JPG"}
+              src={"/me.jpg"}
               alt="me"
               width={700}
               height={475}
