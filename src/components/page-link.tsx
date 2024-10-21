@@ -12,7 +12,7 @@ function PageLink({
     <span>
       <Link
         href={href}
-        className="text-primary underline decoration-wavy decoration-1 underline-offset-2 hover:text-primary/80 "
+        className="text-teal-500 underline decoration-wavy decoration-1 underline-offset-2 hover:text-primary/80 "
       >
         {children}
       </Link>
