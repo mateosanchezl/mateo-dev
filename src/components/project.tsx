@@ -14,15 +14,17 @@ function Project({
   githubLink,
 }: ProjectType) {
   return (
-    <div className="flex flex-col md:flex-row gap-4 items-center lg:hover:bg-secondary/20 rounded-lg p-2 lg:hover:cursor-pointer">
+    <div className="flex flex-col md:flex-row gap-4 items-center rounded-lg p-2 ">
       <div className="w-full md:w-1/3 aspect-[4/3] relative rounded-lg overflow-hidden">
-        <Image
-          src={imageSource}
-          alt={`${alt}`}
-          layout="fill"
-          objectFit="contain"
-          className="transition-transform duration-300"
-        />
+        <Link href={githubLink}>
+          <Image
+            src={imageSource}
+            alt={`${alt}`}
+            layout="fill"
+            objectFit="contain"
+            className="hover:scale-105 duration-300 transition"
+          />
+        </Link>
       </div>
       <div className="w-full md:w-2/3 lg:ml-2">
         <div className="flex flex-col lg:flex-row lg:items-center">
