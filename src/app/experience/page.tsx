@@ -26,7 +26,7 @@ function ExperiencePage() {
       title: "bancosol",
       location: "la paz, bolivia",
       placeDescription:
-        "bank is a microfinance bank and the first microfinance institution in history, committed to meeting the financial needs of country's micro entrepreneurs and small business owners.",
+        "bancosol is a microfinance bank and the first microfinance institution in history, committed to meeting the financial needs of country's micro entrepreneurs and small business owners.",
       date: "jun 2023 – aug 2023",
       roles: [
         {
@@ -52,7 +52,7 @@ function ExperiencePage() {
       title: "hocicos del mundo",
       location: "la paz, bolivia",
       placeDescription:
-        "place is a dog shelter with over seven years of experience in rescuing and caring for stray dogs until they can find a new family.",
+        "hocicos del mundo is a dog shelter with over seven years of experience in rescuing and caring for stray dogs until they can find a new family.",
       date: "feb 2021 – oct 2021",
       roles: [
         {
@@ -70,7 +70,7 @@ function ExperiencePage() {
       title: "carhartt wip",
       location: "london, uk",
       placeDescription:
-        "place is the streetwear branch of the american clothing brand founded in 1889.",
+        "carhartt wip is the streetwear branch of the american clothing brand founded in 1889.",
       date: "jul 2018 – aug 2018",
       roles: [
         {
@@ -99,7 +99,7 @@ function ExperiencePage() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle className="lg:text-3xl  text-lg font-semibold">
+                    <CardTitle className="lg:text-3xl  text-lg font-semibold underline">
                       {exp.title}
                     </CardTitle>
                     <p className="lg:text-lg text-sm text-muted-foreground">
@@ -120,7 +120,7 @@ function ExperiencePage() {
 
                 {exp.roles.map((role, roleIndex) => (
                   <div key={roleIndex} className="mb-4">
-                    <h3 className="font-semibold text-lg lg:text-xl">
+                    <h3 className="font-semibold text-lg lg:text-xl underline">
                       {role.title}
                     </h3>
 
