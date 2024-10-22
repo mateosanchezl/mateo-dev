@@ -8,14 +8,12 @@ export default function Home() {
   const [isVisible, setIsVisible] = useState<boolean>(false);
 
   return (
-    <div className="h-screen flex justify-center items-center text-primary/75 lg:text-xl text-md">
+    <div className="h-screen flex justify-center items-center text-primary lg:text-xl text-md">
       <div className="w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/4 h-1/2">
-        <h1 className="lg:text-3xl text-2xl text-primary ">mateo sanchez</h1>
+        <h1 className="lg:text-3xl text-2xl">mateo sanchez</h1>
         <p className="pt-5 lg">
-          bolivian <span className="text-primary ">software engineering </span>
-          student & <br />
-          <span className="text-primary ">lab demonstrator</span> at{" "}
-          <span className="text-primary ">manchester met</span>.
+          bolivian software engineering student & <br />
+          lab demonstrator at manchester met.
         </p>
         <p className="pt-4">
           learn more <PageLink href="/about">about me</PageLink> and my previous{" "}
