@@ -16,9 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${GeistSans.className} lg:p-12`}>
+      <body className={GeistSans.className}>
         <ThemeProvider attribute="class" defaultTheme="system">
-          <Header />
           <main>{children}</main>
         </ThemeProvider>
       </body>

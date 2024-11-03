@@ -1,7 +1,36 @@
-"use client";
+import Header from "@/components/header";
+import ProjectCard from "@/components/project-card";
 
 export default function Home() {
   return (
-    <div className="h-screen flex justify-center items-center text-primary lg:text-xl text-md"></div>
+    <div className="flex min-w-screen flex-col items-center justify-between ">
+      <div className="flex flex-col flex-wrap items-center justify-center mt-[3rem] mb-[6rem] p-3 w-full max-w-[650px]">
+        <Header />
+        <div className="w-full pt-4">
+          <div>
+            <h2 className="font-normal ">about me 👨🏽‍💻</h2>
+            <div className="w-full h-[1px] bg-zinc-800 mt-1"></div>
+            <p className="mt-4">
+              i am bolivian software engineering student & lab demonstrator at manchester met.
+            </p>
+            <p className="mt-2">
+              i love to build cool things, swim, run and lift weights. and when i&apos;m back home,
+              i love spending time with my family and luke.
+            </p>
+          </div>
+        </div>
+        <div className="w-full pt-10">
+          <div>
+            <h2 className="font-normal ">projects 🚀</h2>
+            <div className="w-full h-[1px] bg-zinc-800 mt-1"></div>
+            <div className="grid gap-4">
+              <ProjectCard />
+              <ProjectCard />
+              <ProjectCard />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
