@@ -8,17 +8,12 @@ import PageLink from "./page-link";
 
 function Header() {
   return (
-    <header>
-      <div className="absolute left-10 top-10">
-        <Link href="/" passHref>
-          <Button variant="outline" size="icon">
-            <HomeIcon className="h-[1.2rem] w-[1.2rem]" />
-            <span className="sr-only">Home</span>
-          </Button>
-        </Link>
-      </div>
+    <header className="flex justify-center items-center">
       <div className="absolute right-10 top-10">
         <ModeToggle />
+      </div>
+      <div className="w-96 text-center text-lg">
+        <h1>Mateo Sanchez</h1>
       </div>
     </header>
   );

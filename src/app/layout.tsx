@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
-import { Afacad } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/header";
 
-const afacad = Afacad({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
   title: "mateo sanchez",
-  description:
-    "bolivian software engineering student and lab demonstrator at manchester met.",
+  description: "bolivian software engineering student and lab demonstrator at manchester met.",
 };
 
 export default function RootLayout({
@@ -19,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={afacad.className}>
+      <body className={`${GeistSans.className} lg:p-12`}>
         <ThemeProvider attribute="class" defaultTheme="system">
           <Header />
           <main>{children}</main>
