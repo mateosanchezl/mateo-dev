@@ -1,5 +1,6 @@
 import Header from "@/components/header";
 import ProjectCard from "@/components/project-card";
+import { projects } from "@/data/projectsData";
 
 export default function Home() {
   return (
@@ -23,10 +24,15 @@ export default function Home() {
           <div>
             <h2 className="font-normal ">projects 🚀</h2>
             <div className="w-full h-[1px] bg-zinc-800 mt-1"></div>
-            <div className="grid gap-4">
-              <ProjectCard />
-              <ProjectCard />
-              <ProjectCard />
+            <div className="grid gap-2 grid-cols-2 mt-4">
+              {projects.map((project, index) => (
+                <ProjectCard
+                  name={project.projectName}
+                  description={project.description}
+                  key={index}
+                  imageSrc={project.imageSource}
+                />
+              ))}
             </div>
           </div>
         </div>
