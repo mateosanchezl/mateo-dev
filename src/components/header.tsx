@@ -8,7 +8,7 @@ function Header() {
   return (
     <header className="flex justify-center items-center">
       <div className="w-96 h-28 text-center text-lg relative">
-        <h1 className="font-semibold">Mateo Sanchez</h1>
+        <h1>mateo sanchez lopez</h1>
         <div className="flex justify-center pb-4 pt-3">
           <div className="h-[1px] w-1/6 bg-primary justify-center items-center"></div>
         </div>

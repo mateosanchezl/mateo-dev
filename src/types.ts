@@ -1,9 +1,11 @@
 export interface ProjectType {
   projectName: string;
+  slug: string;
   imageSource: string;
   alt: string;
-  technologies: string[];
-  tags: string[];
+  technologies?: string[];
+  tags?: string[];
   description: string;
-  githubLink: string;
+  extendedDescription?: string;
+  githubLink?: string;
 }

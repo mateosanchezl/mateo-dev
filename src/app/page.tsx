@@ -28,6 +28,7 @@ export default function Home() {
               {projects.map((project, index) => (
                 <ProjectCard
                   name={project.projectName}
+                  slug={project.slug}
                   description={project.description}
                   key={index}
                   imageSrc={project.imageSource}
