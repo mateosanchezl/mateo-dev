@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { projects } from "@/data/projectsData";
 import { notFound } from "next/navigation";
-import Link from "next/link";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { ArrowLeftIcon, GitHubLogoIcon, HomeIcon } from "@radix-ui/react-icons";
 import IconLink from "@/components/icon-link";
+import { ArrowUpLeftFromSquare } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default async function Page({ params }: { params: { slug: string } }) {
   const project = projects.find((proj) => proj.slug === params.slug);
@@ -34,6 +36,13 @@ export default async function Page({ params }: { params: { slug: string } }) {
           <p className="leading-8">
             {project.extendedDescription ? project.extendedDescription : project.description}
           </p>
+
+          <Link href={"/"} passHref>
+            <Button variant={"secondary"} className="mt-8">
+              <ArrowLeftIcon className="mr-2" />
+              Go back
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

@@ -12,15 +12,23 @@ export default function Home() {
             <h2 className="font-normal ">about me 👨🏽‍💻</h2>
             <div className="w-full h-[1px] bg-zinc-800 mt-1"></div>
             <p className="mt-4">
-              i am bolivian software engineering student & lab demonstrator at manchester met.
+              i am a software engineering student & teaching assistant at manchester met.
             </p>
             <p className="mt-2">
-              i love to build cool things, swim, run and lift weights. and when i&apos;m back home,
-              i love spending time with my family and luke.
+              i made this website to share the (hopefully) cool things i&apos;ve built, as well as
+              things i am passionate about.
             </p>
+
+            <a
+              className="hover:cursor-pointer hover:underline text-primary/70 hover:text-primary"
+              href="/MateoSanchezLopezCV1124.pdf"
+              download
+            >
+              <p className="mt-2">cv download</p>
+            </a>
           </div>
         </div>
-        <div className="w-full pt-10">
+        <div className="w-full pt-5">
           <div>
             <h2 className="font-normal ">projects 🚀</h2>
             <div className="w-full h-[1px] bg-zinc-800 mt-1"></div>
