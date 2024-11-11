@@ -13,6 +13,26 @@ export const projects: ProjectType[] = [
     alt: "habify-photo",
   },
   {
+    projectName: "crawly-ai",
+    slug: "crawly-ai",
+    description: "an open source, simple and efficient AI web scraping tool.",
+    extendedDescription:
+      "Crawly AI is a simple web scraping tool. Users can choose from a variety of LLMs to do AI-assisted web scraping elegantly in their projects.",
+    imageSource: "/project-images/crawly.png",
+    alt: "a screenshot of the npm package crawly-ai",
+    githubLink: "https://github.com/mateosanchezl/crawly-ai",
+  },
+  {
+    projectName: "applyfast",
+    slug: "applyfast",
+    description:
+      "a full-stack web app where users can use AI to generate  cover letters with their CV.",
+    extendedDescription:
+      "ApplyFast is a web app where users can create an account and make personalised cover letters by using Google's Gemini API along with their parsed CV information and other tunable options.",
+    imageSource: "/project-images/applyfast.png",
+    alt: "a screenshot of the applyfast landing page",
+  },
+  {
     projectName: "efficient-vis",
     slug: "efficient-vis",
     description:
