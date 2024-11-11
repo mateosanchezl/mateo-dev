@@ -4,13 +4,13 @@ export const projects: ProjectType[] = [
   {
     projectName: "habify",
     slug: "habify",
-    description: "an open-source IOS/Android mobile app aiming to gamify self-development.",
+    description: "an hackathon-winning IOS/Android mobile app aiming to gamify self-development.",
     extendedDescription:
       "Winner of 'Best Overall Concept' at a university Hackathon, Habify is a gamified self-development mobile application that transforms personal growth into an engaging daily adventure. Built with React Native and Expo, this cross-platform solution delivers a native experience to both iOS and Android users while maintaining a single codebase.",
     technologies: ["typescript", "react native", "expo", "firebase", "tanstack query"],
     tags: ["mobile app development"],
     imageSource: "/project-images/habify.jpeg",
-    alt: "habify-photo",
+    alt: "screenshot of a mobile application",
   },
   {
     projectName: "crawly-ai",
@@ -19,7 +19,7 @@ export const projects: ProjectType[] = [
     extendedDescription:
       "Crawly AI is a simple web scraping tool. Users can choose from a variety of LLMs to do AI-assisted web scraping elegantly in their projects.",
     imageSource: "/project-images/crawly.png",
-    alt: "a screenshot of the npm package crawly-ai",
+    alt: "a screenshot of the npm package page for crawly-ai",
     githubLink: "https://github.com/mateosanchezl/crawly-ai",
   },
   {
@@ -42,7 +42,7 @@ export const projects: ProjectType[] = [
     technologies: ["javascript", "react", "python", "pytorch", "numpy", "flask"],
     tags: ["full-stack development", "data science", "deep learning"],
     imageSource: "/project-images/efficientvis.png",
-    alt: "efficientvis-photo",
+    alt: "a screenshot of a dog being predicted by a computer vision model",
     githubLink: "https://github.com/mateosanchezl/efficient-vis",
   },
   {
@@ -54,7 +54,7 @@ export const projects: ProjectType[] = [
     technologies: ["python", "pygame", "numpy"],
     tags: ["game development"],
     imageSource: "/project-images/conwaysgol1.png",
-    alt: "conwaysgol-photo",
+    alt: "a screenshot of conway's game of life",
     githubLink: "https://github.com/mateosanchezl/conways-game-of-life",
   },
   {
@@ -66,7 +66,7 @@ export const projects: ProjectType[] = [
     technologies: ["python", "pytorch", "numpy"],
     tags: ["data science", "deep learning", "machine learning"],
     imageSource: "/project-images/mnist.png",
-    alt: "mnist-photo",
+    alt: "a command line running a machine learning model",
     githubLink: "https://github.com/mateosanchezl/mnist-torch",
   },
   {
@@ -76,7 +76,7 @@ export const projects: ProjectType[] = [
     technologies: ["vanilla js", "html", "css"],
     tags: ["front-end development"],
     imageSource: "/project-images/movi.png",
-    alt: "movi-photo",
+    alt: "the landing page of a movie website",
     githubLink: "https://github.com/mateosanchezl/movi",
   },
   {
@@ -86,7 +86,7 @@ export const projects: ProjectType[] = [
     technologies: ["python"],
     tags: ["data structures and algorithms"],
     imageSource: "/project-images/percolation.png",
-    alt: "percolation-photo",
+    alt: "a percolation image",
     githubLink: "https://github.com/mateosanchezl/percolation",
   },
   {
@@ -96,7 +96,7 @@ export const projects: ProjectType[] = [
     technologies: ["python"],
     tags: ["machine learning", "deep learning"],
     imageSource: "/project-images/4bitnn.png",
-    alt: "4bitnn-photo",
+    alt: "a neural network",
     githubLink: "https://github.com/mateosanchezl/4bitbinary-nn",
   },
   {
@@ -104,7 +104,7 @@ export const projects: ProjectType[] = [
     slug: "mateo-dev",
     description: "the website you are looking at right now!",
     imageSource: "/mateo-dev.png",
-    alt: "mateo-dev-photo",
+    alt: "a screenshot of a website",
     githubLink: "https://github.com/mateosanchezl/mateo-dev",
   },
 ];
