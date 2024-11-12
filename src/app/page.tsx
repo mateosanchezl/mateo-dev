@@ -1,11 +1,14 @@
 import Header from "@/components/header";
+import MouseBackground from "@/components/mouseBackground";
 import ProjectCard from "@/components/project-card";
 import { projects } from "@/data/projectsData";
 
 export default function Home() {
   return (
-    <div className="flex min-w-screen flex-col items-center justify-between ">
-      <div className="flex flex-col flex-wrap items-center justify-center mt-[3rem] mb-[6rem] p-3 w-full max-w-[650px]">
+    <div className="relative flex min-w-screen flex-col items-center justify-between">
+      <MouseBackground />
+
+      <div className="relative z-10 flex flex-col flex-wrap items-center justify-center mt-[3rem] mb-[6rem] p-3 w-full max-w-[650px]">
         <Header />
         <div className="w-full pt-4">
           <div>

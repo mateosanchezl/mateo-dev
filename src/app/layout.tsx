@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import MouseBackground from "@/components/mouseBackground";
 
 export const metadata: Metadata = {
   title: "mateo sanchez",

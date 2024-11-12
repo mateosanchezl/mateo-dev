@@ -68,11 +68,16 @@ export default async function Page({ params }: { params: { slug: string } }) {
   };
 
   return (
-    <div className="flex min-w-screen flex-col items-center justify-between">
+    <div className="flex min-w-screen flex-col items-center justify-between relative">
       <div className="flex flex-col flex-wrap items-center justify-center mt-[3rem] mb-[6rem] p-3 w-full max-w-[650px]">
         <div className="container mx-auto p-4">
           <div className="relative w-full h-64 mb-4">
-            <Image src={project.imageSource} alt={project.alt} layout="fill" objectFit="contain" />
+            <Image
+              src={project.imageSource}
+              alt={project.alt}
+              fill
+              style={{ objectFit: "contain" }}
+            />
           </div>
           <div className="flex flex-row mt-12 items-center mb-4">
             <h1 className="text-lg font-bold">{project.projectName}</h1>{" "}
