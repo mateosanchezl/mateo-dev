@@ -4,7 +4,7 @@ export const projects: ProjectType[] = [
   {
     projectName: "habify",
     slug: "habify",
-    description: "an hackathon-winning IOS/Android mobile app aiming to gamify self-development.",
+    description: "a hackathon-winning IOS/Android mobile app aiming to gamify self-development.",
     extendedDescription:
       "Winner of 'Best Overall Concept' at a university Hackathon, Habify is a gamified self-development mobile application that transforms personal growth into an engaging daily adventure. Built with React Native and Expo, this cross-platform solution delivers a native experience to both iOS and Android users while maintaining a single codebase.",
     technologies: ["typescript", "react native", "expo", "firebase", "tanstack query"],
